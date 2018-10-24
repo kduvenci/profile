@@ -1,0 +1,104 @@
+body{
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 300;
+  background-color: #b1e3df;
+  background-image: url("https://www.transparenttextures.com/patterns/45-degree-fabric-dark.png");
+  color: #393e46;
+  margin: auto;
+  text-align: center;
+  max-width: 800px;
+}
+
+div{
+  background-color: #c7f2e3;
+  padding: 20px;
+  margin: 20px;
+  border-radius: 10px;
+}
+
+h1, h2, h3, h4 {
+  margin: 10px;
+}
+
+hr{
+  border: 0.5px solid;
+  border-color: #5c6168;
+}
+
+p{
+  text-align: left;
+}
+
+a{
+  text-decoration: none;
+  font-family: 'Courier New', Courier, monospace;
+  font-size: 12px;
+  font-weight: bold;
+  padding: 10px;
+  color: #393e46;
+  border-radius: 8px;
+}
+
+a:hover{
+  background-color: rgba(121, 113, 113, 0.247);
+}
+
+/* classes and id's */
+
+.header{
+  padding-top: 50px;
+}
+
+.header ul{
+  padding: 15px 0 0 0;
+}
+
+.header ul li{
+  margin: 0;
+  display: inline;
+  padding: 0 15px;
+}
+
+#logo{
+  margin: 20px;
+  border-radius: 50%;
+  width: 200px;
+  border: #393e46 solid 1px;
+}
+
+.core{
+  padding-top: 0;
+  text-align: left;
+}
+
+.education{
+  padding-top: 0;
+  text-align: left;
+}
+
+.fav-movies img{
+  width: 150px;
+}
+
+.fav-movies h4{
+  margin: 20px;
+  text-align: left;
+}
+
+.fav-movies a{
+  float: right;
+}
+
+.fav-movies p{
+  margin: 20px;
+}
+
+.footer {
+  padding: 10px;
+}
+
+.footer p{
+  text-align: center;
+  font-size: 12px;
+  padding: 0;
+}
